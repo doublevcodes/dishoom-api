@@ -1,0 +1,12 @@
+name = "dishoom-api"
+type = "webpack"
+
+account_id = "f2d3b5a3c7632ca474f06db4717b00b2"
+workers_dev = true
+route = ""
+zone_id = "05d8538fd89486d425bd9e2e25d8bf79"
+compatibility_date = "2021-10-11"
+
+kv_namespaces = [ 
+    { binding = "DISHOOM_RECORDS", id = "4e0ca5cc32754b00b168b11e53bcad8d" }
+]
