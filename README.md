@@ -1,21 +1,21 @@
-## Router
+<h1 align="center">Dishoom API  <img src="https://github.com/doublevcodes/dishoom-api/blob/readme/icon.png" width="28" height="28"/></h1>
 
-This template demonstrates using the [`itty-router`](https://github.com/kwhitley/itty-router) package to add routing to your Cloudflare Workers.
+This Dishoom API is an internal service that serves as an
+abstraction layer between the [Dishoom web interface](https://github.com/doublevcodes/dishoom) and [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works).
+The API is currently publicly accessible although this is subject to
+change in future circumstances.
 
-[`index.js`](https://github.com/cloudflare/worker-template-router/blob/master/index.js) is the content of the Workers script.
+Being tightly coupled with the functionality being provided by the
+Dishoom web interface, this API will not be strictly versioned and does
+not provide any guaranteed behaviour at any point in time.
 
-#### Wrangler
-
-You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on this template by running the following command from your terminal:
-
-```
-wrangler generate myapp https://github.com/cloudflare/worker-template-router
-```
-
-Before publishing your code you need to edit `wrangler.toml` file and add your Cloudflare `account_id` - more information about configuring and publishing your code can be found [in the documentation](https://developers.cloudflare.com/workers/learning/getting-started#7-configure-your-project-for-deployment).
-
-Once you are ready, you can publish your code by running the following command:
-
-```
-wrangler publish
-```
+## Project information
+The Dishoom API functions using key technology and frameworks. Firstly,
+this API utilises the serverless architecture model - it is hosted on an
+amazing platform called [Cloudflare Workers](https://workers.cloudflare.com). The REST-like functionality
+is provided by an itty-bitty `npm` package built for Cloudflare Workers,
+which is known as [`itty-router`](https://www.npmjs.com/package/itty-router)(the API also makes use of
+[`itty-router-extras`](https://www.npmjs.com/package/itty-router)). Finally, the Dishoom API can retrieve values from
+a key-value storage service known as [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works); this storage of stateful
+data in [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) enables content to be stored and be related to a UUIDv4
+(provided by [uuid.rocks](https://uuid.rocks)).
