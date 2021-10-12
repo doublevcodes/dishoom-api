@@ -1,4 +1,4 @@
-<h1 align="center">Dishoom API  <img src="https://github.com/doublevcodes/dishoom-api/blob/readme/icon.png" width="28" height="28"/></h1>
+<h1 align="center">Dishoom API  <img src="https://github.com/doublevcodes/dishoom-api/blob/main/icon.png" width="28" height="28"/></h1>
 
 This Dishoom API is an internal service that serves as an
 abstraction layer between the [Dishoom web interface](https://github.com/doublevcodes/dishoom) and [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works).
