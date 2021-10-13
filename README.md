@@ -19,3 +19,7 @@ which is known as [`itty-router`](https://www.npmjs.com/package/itty-router)(the
 a key-value storage service known as [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works); this storage of stateful
 data in [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) enables content to be stored and be related to a UUIDv4
 (provided by [uuid.rocks](https://uuid.rocks)).
+
+## Utilities
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/doublevcodes/dishoom-api)
